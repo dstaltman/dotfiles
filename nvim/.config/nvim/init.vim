@@ -49,6 +49,14 @@ nmap <leader>Q :bufdo bdelete<cr>
 
 call plug#begin('~/.config/nvim/plugged')
 
+source ~/.config/nvim/plugins/airline.vim
+source ~/.config/nvim/plugins/commentary.vim
+source ~/.config/nvim/plugins/editorconfig.vim
+source ~/.config/nvim/plugins/eunuch.vim
+source ~/.config/nvim/plugins/fugitive.vim
+source ~/.config/nvim/plugins/nerdtree.vim
+source ~/.config/nvim/plugins/surround.vim
+
 call plug#end()
 
 "---------
