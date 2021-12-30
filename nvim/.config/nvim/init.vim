@@ -43,6 +43,10 @@ nmap <leader>vr :source ~/.config/nvim/init.vim<cr>
 nmap <leader>k :nohlsearch<CR>
 nmap <leader>Q :bufdo bdelete<cr>
 
+ " reselect after indent
+vnoremap < <gv
+vnoremap > >gv
+
 "---------
 " Plugins
 "---------

@@ -17,6 +17,7 @@ nix-env -iA \
 	nixpkgs.ripgrep \
 	nixpkgs.bat \
 	nixpkgs.direnv \
+	nixpkgs.python310 \
 
 # stow
 stow nvim
