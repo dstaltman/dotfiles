@@ -60,6 +60,7 @@ source ~/.config/nvim/plugins/eunuch.vim
 source ~/.config/nvim/plugins/fugitive.vim
 source ~/.config/nvim/plugins/nerdtree.vim
 source ~/.config/nvim/plugins/surround.vim
+source ~/.config/nvim/plugins/fzf.vim
 
 call plug#end()
 

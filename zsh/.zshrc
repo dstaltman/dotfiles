@@ -17,6 +17,9 @@ source ~/.zsh_plugins.sh
 alias ls='ls -al'
 alias vim='nvim'
 
+# Aliases to get to Windows
+alias wh='cd /mnt/c/ul/'
+
 # source the Nix plugins
 if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
